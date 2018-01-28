@@ -1,7 +1,7 @@
 //const MongoClient = require('mongodb').MongoClient;
 const{MongoClient,ObjectID} = require('mongodb') //destructuring ES-6
 //Object Id
-var obj = new ObjectID()// using this we can have our own objectId and use it for what ever we ant it for
+var obj = new ObjectID()// using this we can have our own objectId and use it for what ever we want it for
 console.log(obj);
 //des
 var url = 'mongodb://localhost:27017/';
