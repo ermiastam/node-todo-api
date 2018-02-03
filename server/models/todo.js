@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-
 var ToDo = mongoose.model('ToDo',{
     text:{
         type:String,
